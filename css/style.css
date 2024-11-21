@@ -1,0 +1,272 @@
+.All {
+    max-width: 1200px;
+    margin: 0 auto; /* 中央揃え */
+    padding: 0 20px; /* 両端の少しの余白（任意） */
+}
+
+.header, .footer2, .contact-form, .btn-container {
+    width: 100%; /* コンテナの幅に合わせる */
+    cursor: url(シンボルペンギン_透過.PNG);
+}
+
+.cursor-image {
+    width: 32px;
+    height: 32px;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+}
+
+.nav-list{
+    display: flex;
+    text-align: center;
+    justify-content: space-around; 
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 21px;
+    height: 120px;
+}
+
+.list3{
+    display: flex;
+    text-align: center;
+}
+
+.nav-list-item{
+    color: #246dc8;
+    font-family: futura;
+    margin: 15px;
+    padding: 15px;
+    transition: color 0.3S ease;
+}
+
+.nav-list-item:hover{
+    color: #ffc40f;
+}
+
+
+.top{
+    color: white;
+    background-color: #246dc8;
+    /* フォントはfuturaが好き。未来感 */
+    font-family: futura;
+    /* paddingは空間内の余白 */
+    padding: 100px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.space{
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.mission{
+    font-size: 24px;
+}
+
+.highlight{
+    color: #ffc40f;
+}
+
+.profile{
+    margin: 60px 0px 30px 0px;
+}
+
+.copy{
+    margin: 0px 0px 60px 0px;
+}
+
+
+.second{
+    color: #595959;
+    width: 100%;
+    text-align: center;
+    font-family: futura;
+}
+
+.ceo-rule{
+    background-color: #f3f3f3;
+    height: 240px;
+}
+
+.ceo{
+    font-family: futura;
+    color: #595959;
+    text-align: center;
+    margin: 60px 0px 30px 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+.ceomessage{
+    font-size: 24px;
+    font-family: futura;
+    color: #595959;
+}
+
+.ceoprofile{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    gap: 24px;
+}
+
+.pen-name{
+    font-family: futura;
+    color: #595959;
+    margin: 0px;
+
+}
+
+.ourteam{
+    font-family: futura;
+    color: #595959;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.characters{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Services{
+    font-family: futura;
+    color: #595959;
+    flex: 1;
+    text-align: center;
+    margin: 60px;
+}
+
+.item-box{
+    justify-content: space-around;
+}
+
+.service-item{
+    display: flex;
+    font-family: futura;
+    align-items: center;
+    color: #595959;
+    flex: 1;
+    justify-content:space-around;
+    margin: 30px;
+}
+
+.halfbox{
+    justify-content: center;
+}
+
+.Service-items img{
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    object-fit: contain;
+}
+
+.pen-friends{
+    transition: 0.3s ease; 
+    /* なめらか移動 */
+}
+
+.pen-friends:hover{
+    transform: translateY(-10px);
+}
+
+.Contact-container{
+    color: #595959;
+    background-color: #f3f3f3;
+    max-width:1200px;;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: 460px;
+}
+
+.Contact{
+    text-align: center;
+    font-family: futura;
+}
+
+.contact-form{
+    width: 80%;
+    margin: 0 auto;
+    font-family: futura;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-form table{
+    margin: 0 auto;
+}
+
+.map{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.btn-more{
+    color: #f3f3f3;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: futura;
+    background-color: #246dc8;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-more:hover{
+    color: #f3f3f3;
+    background-color: #ffc40f;
+    justify-content: center;
+}
+
+.Access{
+    font-family: futura;
+    color: #595959;
+    text-align: center;
+}
+
+.Access-table{
+    margin: 0 auto;
+    font-family: futura;
+    color: #595959;
+    padding: 30px;
+}
+
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    font-family: futura;
+    background: #f3f3f3;
+    height: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Copyrights{
+    padding: 90px 0px 0px 0px;
+    color: #595959;
+}
